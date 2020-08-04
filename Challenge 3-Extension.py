@@ -1,0 +1,5 @@
+width = input("Input the width: ")
+length = input("Input the length: ")
+height = input("Input the height: ")
+volume = int(width) * int(length) * int(height)
+print("The volume of a cuboid with width " + width + "cm,length " + length + "cm and height " + height + "cm is " + str(volume) + " centimeter cubed.")
