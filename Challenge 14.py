@@ -12,7 +12,6 @@ while replay.lower() == "yes":
         print("You have " + str(lives) + " lives and " + str(wins) + " wins.")
         print("The number is " + str(numbers[0]))
         numbers.append(randint(1, 13))
-        print(numbers)
         playerInput = input("Type H or L to guess whether the next number is higher or lower respectively: ")
         while playerInput.lower() != "h" and playerInput.lower() != "l":
             print("\nType a valid input!")
