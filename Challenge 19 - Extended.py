@@ -2,10 +2,10 @@ import random as r
 
 def cipher(text, seed, action):
     res = ""
+    r.seed(seed)
     for i in range(0, len(text)):
         letter = text[i]
         asciiLetter = ord(letter)
-        r.seed(seed)
         sinit = int(r.random() * 10)
 
         if action.lower() == "encrypt":
